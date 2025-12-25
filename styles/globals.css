@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 33% 99%;
+  --foreground: 214 15% 20%;
+  --muted: 215 20% 90%;
+  --muted-foreground: 215 10% 40%;
+  --accent: 168 90% 35%;
+  --accent-foreground: 168 19% 97%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.paper-surface {
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.95), rgba(243, 244, 246, 0.95));
+  box-shadow: 0 24px 48px -24px rgba(15, 118, 110, 0.35);
+}
+
+.arabic {
+  font-family: "Tajawal", system-ui, sans-serif;
+}
